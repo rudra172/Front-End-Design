@@ -1,0 +1,110 @@
+header{
+    position: fixed;
+    top: 0;left: 0;right: 0;
+    padding: 20px;
+    z-index:1;
+
+}
+header nav ul{
+    margin-left: 500px;
+}
+header nav .collapse ul li a{
+    margin-left:20px;
+    color: rgb(4, 3, 3);
+    padding: 0px;
+   
+}
+
+#home
+{
+background-image: url(./images/best-travel-vloggers-on-youtube-image-1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100vh;
+}
+
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .home .content{
+    text-align:center;
+    color: #fff;
+}
+.home .content h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    text-transform:uppercase;
+    text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
+}
+
+.home .content p{
+    color: var(--orange);
+    font-size: 30px;
+    padding:8px;
+}
+
+/* .home .controls{
+    padding: 16px;
+    border-radius:80px;
+    background-color: rgba(0,0,0,.7);
+    position: relative;
+    top:160px;
+
+
+}
+
+.home .controls .vid-btn{
+    height:32px;
+    width:32px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #fff;
+    margin: 0 8px;
+}
+
+.home .controls .vid-btn.active{
+    background-color: var(--orange);
+} */
+#latest
+{
+    background-image: url(./images/1431610.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 100vh;
+    }
+#card1
+{
+    display: flex;
+    justify-content: space-between;
+flex-direction: row;
+flex-wrap: wrap;
+}
+#image
+{
+    background-image: url(./images/travel\ journal.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 100vh;
+    }
+#images
+{
+    background-image: url(./images/north\ east.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 100vh;
+    }
+    #last
+{
+    background-image: url(./images/last.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height: 100vh;
+    }
